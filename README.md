@@ -9,4 +9,5 @@ git clone https://github.com/cni-september/cni-terraform.git
 2) Plan and run Terraform 
 
 terraform plan -out cni.output
+
 terraform apply "cni.output"
