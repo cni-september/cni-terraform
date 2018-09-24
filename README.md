@@ -15,3 +15,5 @@ terraform init
 terraform plan -out cni.output
 
 terraform apply "cni.output"
+
+3) It should create an EC2 instance and a SG which will be attached to the EC2 instance 
