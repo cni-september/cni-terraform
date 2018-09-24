@@ -1,5 +1,5 @@
 resource "aws_security_group" "allow_ssh1" {
-  name        = "allow-22-80-andalloutbound"
+  name        = "allow-inbount-22-80-alloutbound"
   description = "Allow SSH inbound traffic"
 
   ingress {
