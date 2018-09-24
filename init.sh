@@ -8,4 +8,4 @@ yum install -y nodejs
 
 service docker start
 
-docker container run -p --d 80:8080 cniseptember/cni-docker
+docker container run --d -p 80:8080 cniseptember/cni-docker
