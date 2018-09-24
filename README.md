@@ -17,3 +17,8 @@ terraform plan -out "cni.output"
 terraform apply "cni.output"
 
 It should create an EC2 instance and a SG(inbound:22,80 - outbound all) which will be attached to the EC2 instance 
+
+After the instance will be created it will run the "userdata.sh" which will install Docker,Git and NodeJS and it will start a container based on docker hub repo: cniseptember/cni-docker
+
+3) Verify if the app is working:
+http://=public-up=
