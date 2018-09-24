@@ -8,7 +8,9 @@ git clone https://github.com/cni-september/cni-terraform.git
 
 cd cni-terraform
 
-2) Plan and run Terraform 
+2) Init, plan and run:
+
+terraform init
 
 terraform plan -out cni.output
 
