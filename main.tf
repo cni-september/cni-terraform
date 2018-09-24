@@ -2,7 +2,7 @@ resource "aws_instance" "my-test-instance" {
   ami           = "${data.aws_ami.centos7.id}"
   instance_type = "t2.small"
   key_name      = "test_cni"
-  user_data     = "${var.user_data}"
+  user_data     = "${file(init.conf)}"
 
   tags {
     Name = "CNI"
