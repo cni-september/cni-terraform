@@ -12,7 +12,7 @@ cd cni-terraform
 
 terraform init
 
-terraform plan -out cni.output
+terraform plan -out "cni.output"
 
 terraform apply "cni.output"
 
