@@ -5,6 +5,7 @@ As a best practice an IAM role should be assigned to the box or to use SAML api
 Secret access keys should be used as last resort - not secure, just for testing
 
 git clone https://github.com/cni-september/cni-terraform.git
+
 cd cni-terraform
 
 2) Plan and run Terraform 
