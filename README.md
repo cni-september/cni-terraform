@@ -16,4 +16,4 @@ terraform plan -out "cni.output"
 
 terraform apply "cni.output"
 
-It should create an EC2 instance and a SG(inbound:22,80 - outbout all) which will be attached to the EC2 instance 
+It should create an EC2 instance and a SG(inbound:22,80 - outbound all) which will be attached to the EC2 instance 
