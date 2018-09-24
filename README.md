@@ -10,4 +10,5 @@ cd cni-terraform
 2) Plan and run Terraform 
 
 terraform plan -out cni.output
+
 terraform apply "cni.output"
