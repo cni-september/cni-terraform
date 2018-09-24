@@ -17,17 +17,16 @@ resource "aws_security_group" "allow_ssh1" {
   }
 
   egress {
-    from_port = 0
-    to_port = 0
-    protocol = "-1"
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
   tags {
-    CreatedBy = "Terraform"
+    CreatedBy   = "Terraform"
     Environment = "Dev"
-    Name = "CNI EC2 SG"
-    Purpose = "SG for EC2 Instance"
+    Name        = "CNI EC2 SG"
+    Purpose     = "SG for EC2 Instance"
   }
-
 }

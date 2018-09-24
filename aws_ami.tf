@@ -11,6 +11,5 @@ data "aws_ami" "centos7" {
     values = ["hvm"]
   }
 
-  owners = ["137112412989"] 
+  owners = ["137112412989"]
 }
-
