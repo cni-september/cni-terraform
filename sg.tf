@@ -23,4 +23,11 @@ resource "aws_security_group" "allow_ssh1" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
+  tags {
+    CreatedBy = "Terraform"
+    Environment = "Dev"
+    Name = "CNI EC2 SG"
+    Purpose = "SG for EC2 Instance"
+  }
+
 }
